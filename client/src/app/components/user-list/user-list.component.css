@@ -1,0 +1,10 @@
+mat-selection-list {
+    max-height: 300px;
+    height: 250px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+::ng-deep.mat-pseudo-checkbox {
+    display: none !important;
+}

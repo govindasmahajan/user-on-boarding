@@ -1,0 +1,16 @@
+<div class="login-wrapper" fxLayout="column" fxLayoutAlign="center center">
+    <mat-card class="box">
+        <mat-card-header>
+            <mat-card-title>User List</mat-card-title>
+        </mat-card-header>
+        <mat-divider></mat-divider>
+
+        <mat-selection-list #users [multiple]="false">
+            <mat-list-option *ngFor="let user of userList" [value]="user.full_name">
+                {{user.full_name}}
+            </mat-list-option>
+        </mat-selection-list>
+    </mat-card>
+
+
+</div>

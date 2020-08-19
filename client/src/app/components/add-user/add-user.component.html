@@ -1,0 +1,22 @@
+<div class="login-wrapper" fxLayout="row" fxLayoutAlign="center center">
+
+    <mat-card class="box">
+        <mat-card-header>
+            <mat-card-title>Add New User</mat-card-title>
+        </mat-card-header>
+
+        <form class="example-form" [formGroup]="userForm" (ngSubmit)="addUser()">
+            <mat-card-content>
+                <mat-form-field class="example-full-width">
+                    <input formControlName='full_name' minlength="2" matInput placeholder="Full Name">
+                </mat-form-field>
+
+                <mat-form-field class="example-full-width">
+                    <input formControlName='id' minlength="3" type="number" matInput placeholder="ID">
+                </mat-form-field>
+            </mat-card-content>
+            <button mat-stroked-button color="accent" class="btn-block">Add User</button>
+        </form>
+    </mat-card>
+
+</div>
