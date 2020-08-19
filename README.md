@@ -15,4 +15,4 @@ Create a form to add users' and list all these users on UI (User Interface) usin
 - Navigate into `/client/`
 - Run `npm install`
 - Run `ng serve`
-- Use user : 'http://localhost:4200/'
+- Use url to access UI : 'http://localhost:4200/'
