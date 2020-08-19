@@ -1,4 +1,4 @@
-# Basics-Angular-Material
+# User-On-Boarding
 
 Create a form to add users' and list all these users on UI (User Interface) using Angular 8, Angular Flex Layout and Material design UI library, NodeJs as back-end server with MongoDB as persistent storage.
 
